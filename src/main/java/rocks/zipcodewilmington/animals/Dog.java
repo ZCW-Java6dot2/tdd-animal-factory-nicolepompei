@@ -9,6 +9,10 @@ public class Dog extends Mammal {
     public Dog(String name, Date birthDate, Integer id) {
         super(name, birthDate, id);
     }
+    public Dog(){
+        this(null ,null, null);
+    }
+
 
     public String speak() {
         return "bark!";

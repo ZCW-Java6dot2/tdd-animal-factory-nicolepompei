@@ -13,7 +13,7 @@ public class CatHouseTest {
     @Test
     public void addTest() {
         // given
-        Cat expected = new Cat();
+        Cat expected = new Cat(null, null, 0);
         Integer id = expected.getId();
 
         // when

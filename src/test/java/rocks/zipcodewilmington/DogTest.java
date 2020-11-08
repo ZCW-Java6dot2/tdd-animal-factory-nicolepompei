@@ -95,7 +95,7 @@ public class DogTest {
 
     @Test
     public void getIdTest(){
-        Dog dog = new Dog();
+        Dog dog = new Dog(null, null, 0);
         Integer expected = dog.getId();
 
         Integer actual = dog.getId();
